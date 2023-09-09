@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #04060a, #0f0320);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(158, 161, 255, 0.8);
+    margin: 20px;
+    padding: 20px;
+    background-image: url('../assets/images/space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+#planet-ages-response-div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 380px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul#response {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    border: .5px solid #6e558e;
+    color: #e8ebf3;
+    background-color: rgb(71, 62, 100);
+    box-shadow: 10px 10px 10px rgba(121, 121, 166, 0.5);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    width: 80px;
+    color:#d1bff4;
+    border: 1px solid #051637;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(158, 161, 255, 0.5);
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, #251550, #403452, #46375d, #58328f, #7b4a7fb9, #4e3398, #46375d, #393342, #2e0e88);
+    opacity: 0.9;
+}   
