@@ -1,5 +1,4 @@
 const Airtable = require('airtable');
-require('dotenv').config();
 
 export default class AirtableLogic {
     
