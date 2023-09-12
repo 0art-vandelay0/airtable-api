@@ -1,4 +1,4 @@
-# &#x1F30C; QDC Airtable API Starter &#x1F320;
+# QDC Airtable API Starter
 
 #### **Casey Hill**
 
@@ -37,16 +37,12 @@ WIP web page to navigate QDC data from Airtable base.
 ### **In IDE** (this serves as instructions for VS Code)
 
 -   Clone this repository to your local machine.
--   Open VS Code
--   Open the top level directory you just cloned
--   In your terminal enter commands:
+-   At top level directory, enter the following in terminal:
     -   `npm install`
     -   `npm run build`
         <br>// steps for forthcoming features:
         In terminal, enter commands: `npm run start`<br>
         The webpage will open in your browser at port 8080<br>
-        -   Enter your age in Earth Years as a whole number
-        -   Click 'Beam Me Up'
 
 ## **Known Bugs**
 
